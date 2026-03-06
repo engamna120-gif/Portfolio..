@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>مقالات</title>
+
+  <!-- نفس ملفك الأساسي (عشان مقاسات اللوقو + الهامبرجر تبقى 100% نفس كودك) -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- ملف خاص بالمقالات فقط (ما يأثر على باقي موقعك) -->
+  <link rel="stylesheet" href="./articles.css" />
+
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ===== TOP BAR (نفس كودك) ===== -->
+  <header class="topbar">
+    <div class="logo" id="logoBtn" title="Home">
+      <img src="./logo-10.png" alt="Logo">
+    </div>
+
+    <div class="menuWrap" id="menuWrap">
+      <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Menu" aria-expanded="false">
+        <div class="hamburgerLines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+
+      <!-- ✅ القائمة: الرئيسية فقط -->
+      <nav class="menu" aria-label="Main menu">
+        <a href="./index.html#home" data-scroll="home">الرئيسية</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== CONTENT ===== -->
+  <main class="content">
+
+    <section class="articlesPage" id="articlesPage">
+      <div class="articlesWrap">
+        <h1 class="articlesTitle">مقالات</h1>
+        <p class="articlesSub">آخر كتاباتي وأفكاري — مختارات سريعة.</p>
+
+        <div class="articlesList">
+
+          <!-- Article Card -->
+          <article class="articleCard">
+            <div class="articleMeta">تصميم • 2026</div>
+            <h2 class="articleHeading type-words" data-text="كيف تختارين ألوان الهوية البصرية باحتراف؟"></h2>
+            <p class="articleExcerpt">
+              خطوات بسيطة تساعدك تختارين لوحة ألوان مناسبة لشعارك وهوية مشروعك…
+            </p>
+            <a class="articleLink" href="#post-1">اقرأ المزيد</a>
+          </article>
+
+          <article class="articleCard">
+            <div class="articleMeta">شعارات • 2026</div>
+            <h2 class="articleHeading type-words" data-text="أخطاء شائعة في تصميم الشعارات وكيف تتفادينها"></h2>
+            <p class="articleExcerpt">
+              أهم الأخطاء اللي تخلي الشعار ضعيف وكيف ترفعين جودة التصميم…
+            </p>
+            <a class="articleLink" href="#post-2">اقرأ المزيد</a>
+          </article>
+
+          <article class="articleCard">
+            <div class="articleMeta">UI/UX • 2026</div>
+            <h2 class="articleHeading type-words" data-text="كيف تسوين صفحة أعمال مرتبة تجيب لك عملاء؟"></h2>
+            <p class="articleExcerpt">
+              ترتيب الصور، طريقة عرض المشاريع، ونصائح سريعة للـ Portfolio…
+            </p>
+            <a class="articleLink" href="#post-3">اقرأ المزيد</a>
+          </article>
+
+
+          <article class="articleCard">
+            <div class="articleMeta">UI/UX • 2026</div>
+            <h2 class="articleHeading type-words" data-text="كيف تسوين صفحة أعمال مرتبة تجيب لك عملاء؟"></h2>
+            <p class="articleExcerpt">
+              ترتيب الصور، طريقة عرض المشاريع، ونصائح سريعة للـ Portfolio…
+            </p>
+            <a class="articleLink" href="#post-4">اقرأ المزيد</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<section class="articlesDetails" id="articlesDetails">
+
+  <article class="post" id="post-1" aria-expanded="false">
+    <div class="postInner">
+      <button class="postClose" type="button" aria-label="إغلاق">✕</button>
+
+      <div class="postMeta lazy-reveal">تصميم • 2026</div>
+      <h2 class="postTitle type-words" data-text="كيف تختارين ألوان الهوية البصرية باحتراف؟"></h2>
+      <p class="postSub lazy-reveal">مقدمة قصيرة للمقال…</p>
+
+      <div class="postBody">
+        <p class="lazy-reveal">صممة جرافيك أعمل على تحويل الأفكار إلى تصاميم جذابة وبسيطة، أؤمن أن التصميم الجيد هو الذي يوصل الرسالة بوضوح ويترك أثرًا بصريًا مميزًا</p>
+        <p class="lazy-reveal">فقرة 2…</p>
+        <p class="lazy-reveal">فقرة 3…</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="post" id="post-2" aria-expanded="false">
+    <div class="postInner">
+      <button class="postClose" type="button" aria-label="إغلاق">✕</button>
+
+      <div class="postMeta lazy-reveal">شعارات • 2026</div>
+      <h2 class="postTitle type-words" data-text="أخطاء شائعة في تصميم الشعارات وكيف تتفادينها"></h2>
+      <p class="postSub lazy-reveal">مقدمة قصيرة…</p>
+
+      <div class="postBody">
+        <p class="lazy-reveal">فقرة 1…</p>
+        <p class="lazy-reveal">فقرة 2…</p>
+        <p class="lazy-reveal">فقرة 3…</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="post" id="post-3" aria-expanded="false">
+    <div class="postInner">
+      <button class="postClose" type="button" aria-label="إغلاق">✕</button>
+
+      <div class="postMeta lazy-reveal">UI/UX • 2026</div>
+      <h2 class="postTitle type-words" data-text="كيف تسوين صفحة أعمال مرتبة تجيب لك عملاء؟"></h2>
+      <p class="postSub lazy-reveal">مقدمة قصيرة…</p>
+
+      <div class="postBody">
+        <p class="lazy-reveal"></p>
+        <p class="lazy-reveal">فقرة 2…</p>
+        <p class="lazy-reveal">فقرة 3…</p>
+      </div>
+    </div>
+  </article>
+
+</section>
+  <!-- نفس ملف الجافاسكربت حقك (قائمة الهامبرجر) -->
+  <script src="./app.js"></script>
+
+  <!-- جافاسكربت خاص بالكتابة كلمة كلمة -->
+  <script src="./articles.js"></script>
+</body>
+</html>

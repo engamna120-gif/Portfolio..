@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Graphic Design</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./studio-hero.css" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+<!-- SPLASH / INTRO -->
+<div class="intro" id="intro" aria-hidden="true">
+  <img class="intro__img" src="./posts-02.jpg" alt="Intro">
+
+  <!-- الشقّين: يبدأون مخفيين ثم يظهرون ويبدؤون الفتح -->
+  <div class="intro_split intro_split--top"></div>
+  <div class="intro_split intro_split--bottom"></div>
+</div>
+
+
+
+
+
+  <!-- ===== TOP BAR ===== -->
+  <header class="topbar">
+    <div class="logo" id="logoBtn" title="Home">
+      <img src="./logo-10.png" alt="Logo">
+    </div>
+
+    <div class="menuWrap" id="menuWrap">
+      <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Menu" aria-expanded="false">
+        <div class="hamburgerLines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+
+      <nav class="menu" aria-label="Main menu">
+        <a href="#home" data-scroll="home">الرئيسية</a>
+        <a href="#about" data-scroll="about">نبذة عني</a>
+        <a href="#works" data-scroll="works">أعمالي</a>
+        <a href="articles.html" data-scroll="articles">مقالات</a>
+        <a href="#contact" data-scroll="contact">التواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== CONTENT ===== -->
+  <main class="content">
+    <!-- الصفحة الأولى (الدرج فقط) -->
+    <section id="home" class="page1">
+      <div class="stage">
+        <div id="stair" class="stair"></div>
+      </div>
+    </section>
+
+    <!-- الصفحة الثانية (صورة فقط) -->
+    <section class="image-only">
+      <img src="./صور حراج-05.jpg" alt="Section Image">
+    </section>
+
+    <!-- الصفحة الثالثة (نبذة عني) -->
+    <section id="about" class="pageGeneric">
+      <div class="aboutCard">
+        <div class="aboutText">
+          <h2>عنوان رئيسي</h2>
+          <p>مصممة جرافيك أعمل على تحويل الأفكار إلى تصاميم جذابة وبسيطة، أؤمن أن التصميم الجيد هو الذي يوصل الرسالة بوضوح ويترك أثرًا بصريًا مميزًا</p>
+        </div>
+
+        <div class="aboutVideo">
+          <video src="./فيديو.mp4" autoplay muted loop playsinline preload="auto"></video>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="works" class="pageGeneric worksSection">
+  <div class="worksWrap">
+    <h2 class="worksTitle">أعمالي</h2>
+
+    <div class="worksGrid">
+      <!-- كرري workItem حسب عدد أعمالك -->
+      <a class="workItem" href="#" aria-label="Work 1">
+        <img src="./logo-10.png" alt="Work 1">
+      </a>
+
+      <a class="workItem" href="#" aria-label="Work 2">
+        <img src="./logo-10.png" alt="Work 2">
+      </a>
+
+      <a class="workItem" href="#" aria-label="Work 3">
+        <img src="./logo-10.png" alt="Work 3">
+      </a>
+
+
+      <a class="workItem" href="#" aria-label="Work 3">
+        <img src="./logo-10.png" alt="Work 3">
+      </a>
+
+      <a class="workItem" href="#" aria-label="Work 4">
+        <img src="./logo-10.png" alt="Work 4">
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="studio-hero">
+  <div class="studio-bg" aria-hidden="true">
+    <div class="studio-cols">
+
+      <div class="studio-col down">
+        <div class="marquee">
+          <div class="track">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80" alt="">
+          </div>
+          <div class="track" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="studio-col mid up">
+        <div class="marquee">
+          <div class="track">
+            <img src="./logo-10.png" alt="">
+            <img src="./logo-09.png" alt="">
+            <img src="./work11.jfif" alt="">
+          </div>
+          <div class="track" aria-hidden="true">
+            <img src="./logo-10.png" alt="">
+            <img src="./logo-09.png" alt="">
+            <img src="./work11.jfif" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="studio-col down">
+        <div class="marquee">
+          <div class="track">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80" alt="">
+          </div>
+          <div class="track" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=1600&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="studio-shade" aria-hidden="true"></div>
+
+  <div class="studio-content">
+    <h1>تعريف بالبراند</h1>
+    <p>اكتشف قوالب احترافية جاهزة، قابلة للتخصيص بالكامل بدون كتابة كود.</p>
+    <a href="articles.html" class="studio-btn">
+      اكتشف القوالب <span class="arrow" aria-hidden="true"></span>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer id="contact" class="site-footer">
+
+  
+<footer class="footer">
+  <div class="footer-social">
+
+    <div class="social-row">
+      <a href="#" class="social-btn">
+        <img src="./2-22629_instagram-new-logo-png-image-royalty-free-white.png" alt="TikTok">
+      </a>
+
+      <a href="#" class="social-btn">
+        <img src="./واتس.png" alt="WhatsApp">
+      </a>
+    </div>
+
+    <div class="social-row">
+      <a href="#" class="social-btn">
+        <img src="./icons/gmail.svg" alt="Gmail">
+      </a>
+
+      <a href="#" class="social-btn">
+        <img src="./icons/instagram.svg" alt="Instagram">
+      </a>
+
+      <a href="#" class="social-btn">
+        <img src="./icons/behance.svg" alt="Behance">
+      </a>
+    </div>
+
+    <p class="footer-text">
+     © جميع الحقوق محفوظة. تصميم جرافيك 
+    </p>
+
+  </div>
+</footer>
+
+
+
+
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -143,7 +143,7 @@ window.addEventListener("DOMContentLoaded", function () {
     "rgba(255, 255, 255, 0.85)"
   ];
 
-  var speed = 0.55;
+  var speed = 0.35;
   var gapY = 0;
 
   var cardW, cardH, boxW, wrapW, stepX, stepY;
@@ -570,6 +570,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
   }, SHOW_IMAGE_MS);
 })();
+
 
 
 

@@ -246,7 +246,7 @@ body{
 @media (max-width: 768px){
   .image-only img{
     width: 110vw; /* جعل الصورة تملأ عرض الشاشة بالكامل */
-    height: 10vh;
+    height: 17vh;
     max-width: none; /* إزالة الحد السابق */
     object-fit: cover;
   }
@@ -1079,6 +1079,7 @@ background: url("./splash.jpg") center/cover no-repeat;
   font-size: clamp(15px, 1.6vw, 18px);
   color: #333;
 }
+
 
 
 
